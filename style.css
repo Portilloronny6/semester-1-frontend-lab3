@@ -1,0 +1,44 @@
+body {
+    background-color:  #94ea62;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cabezal {
+    position: relative;
+    text-align: center;
+    width: 400px;
+    background: white;
+    border-top: 10px solid #FFFF00;
+    border-bottom:10px solid #FF0000;
+    background-image: 
+        linear-gradient(#FFFF00, #FF0000),
+        linear-gradient(#FFFF00, #FF0000)
+    ;
+    background-size:10px 100%;
+    background-position:0 0, 100% 0;
+    background-repeat:no-repeat;
+    top: 60px;
+    z-index: 1;
+    left: 150px
+}
+
+
+.content {
+    position: absolute;
+    width: 80%;
+    border: 1px solid;
+    padding: 90px 40px 20px 40px;
+    background-color: #fac941;
+}
+
+ul {
+    width: 70%;
+    text-align: justify;
+}
+
+img {
+    position: relative;
+    width: 30%;
+    top: 260px;
+    left: 860px;
+}
